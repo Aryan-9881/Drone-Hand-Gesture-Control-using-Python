@@ -1,0 +1,37 @@
+🚁 Drone Hand Gesture Control using MediaPipe + PyBullet
+
+🛠 REQUIREMENTS:
+---------------------------------------
+- Python 3.10 ONLY (This code is compatible with Python 3.10 environments only)
+- Packages needed:
+    - mediapipe==0.10.7
+    - opencv-python
+    - pybullet
+
+✅ HOW TO SETUP:
+---------------------------------------
+1. Create a new folder (e.g., DroneProject)
+2. Open terminal in that folder and run:
+
+   py -3.10 -m venv venv
+   .\venv\Scripts\activate
+   pip install -r requirements.txt
+
+3. Place your `Drone.py` script in this folder.
+4. Make sure the following file exists at this location:
+   E:/PRACTICE/URDF_Files/quadrotor.urdf
+
+5. Run the script:
+   python Drone.py
+
+🎮 CONTROLS:
+---------------------------------------
+- Move hand or thumb up/down to move the drone vertically
+- Move palm left/right to control horizontal movement
+- Press 'q' to quit the simulation
+
+⚠️ NOTE:
+---------------------------------------
+This code uses live webcam input and MediaPipe hand tracking,
+and requires a proper URDF drone model.
+Ensure that your camera is connected and working.
